@@ -5,7 +5,7 @@ Designed to be lightweight, configurable, and deployable on local machines or VP
 
 Alerts only — no automated trading.
 
-##Overview
+## Overview
 
 This bot continuously analyzes price action using a carefully selected set of widely adopted technical indicators. Alerts are generated when predefined technical conditions are met, with built-in throttling to prevent notification spam.
 
@@ -67,7 +67,7 @@ Graceful handling of API interruptions
 
 Lightweight polling suitable for VPS deployment
 
-##Supported Markets
+## Supported Markets
 
 Currently monitored pairs (configurable):
 
@@ -91,7 +91,7 @@ Create a .env file using the provided example:
 TELEGRAM_BOT_TOKEN=your_bot_token
 TELEGRAM_CHAT_ID=your_chat_id
 
-##Install Dependencies
+## Install Dependencies
 pip install -r requirements.txt
 
 Run the Bot
@@ -100,7 +100,7 @@ python alert_bot.py
 
 The bot runs continuously until manually stopped.
 
-##Configuration
+## Configuration
 
 Core parameters can be adjusted to match individual trading styles:
 
@@ -131,7 +131,7 @@ Price: $2,245.30
 EMA200: $2,180.10
 Time: 14:25:12
 
-##Deployment Notes
+## Deployment Notes
 
 Runs on Windows, Linux, or macOS
 
@@ -141,12 +141,12 @@ Suitable for VPS environments (Ubuntu recommended)
 
 Uses public exchange market data (no trading API keys required)
 
-##Disclaimer
+## Disclaimer
 
 This project is for educational and research purposes only.
 It does not constitute financial or investment advice.
 Use at your own risk.
 
-##License
+## License
 
 MIT License
