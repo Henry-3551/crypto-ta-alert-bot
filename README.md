@@ -116,7 +116,7 @@ TIMEFRAME = "15"            # candle timeframe (minutes)
 
 Future refactoring may move configuration to external files for improved modularity.
 
-Example Alert Output
+### Example Alert Output
 BTCUSDT — RSI OVERSOLD
 
 RSI: 28.45
@@ -129,10 +129,11 @@ ETHUSDT — EMA BULLISH CROSSOVER
 EMA20 crossed above EMA50
 Price: $2,245.30
 EMA200: $2,180.10
-Time: 14:25:12
+Time: 14:25:12 
 
 ## Deployment Notes
 
+[![Python](https://img.shields.io/badge/Python-3.x-blue)](#)
 Runs on Windows, Linux, or macOS
 
 Tested on Python 3.11.9
